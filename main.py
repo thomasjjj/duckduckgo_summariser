@@ -26,7 +26,7 @@ def search_and_summarise(query, max_results=10, model="gpt-4o-mini"):
     return summary
 
 def main():
-    st.title("DuckDuckGo Search Summariser")
+    st.title("DuckDuckGo Search Profiler/Summariser")
     st.write("Enter your search term below and the application will provide a summary of the search results.")
 
     query = st.text_input("Search Term:")
